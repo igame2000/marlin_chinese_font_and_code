@@ -27,8 +27,13 @@
  * See also https://github.com/MarlinFirmware/Marlin/wiki/LCD-Language
  *
  */
-#ifndef LANGUAGE_CN_TEST_H
-#define LANGUAGE_CN_TEST_H
+
+/**
+ * NOTE:
+ * Only work with ISO10646_CN.fon and dogm_font_data_ISO10646_CN.h.
+ */
+#ifndef LANGUAGE_CN_H
+#define LANGUAGE_CN_H
 
 #define DISPLAY_CHARSET_ISO10646_CN
 
